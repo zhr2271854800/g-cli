@@ -11,6 +11,21 @@
 👉 **[NEW · 化学视角深度解析：层状氧化物正极最新化学进展 (2024–2026)](./CHEMISTRY_PERSPECTIVES_2025.md)**  
 　　`晶体化学 · 阴离子氧化还原 · 高熵掺杂 · CEI界面工程 · LHCE电解液 · DFT+MLFF计算化学`
 
+---
+
+## 🧊 3D 真实晶体学交互系统 (O3 vs P2)
+
+本项目基于真实晶体学标准坐标（$R\bar{3}m$ 与 $P6_3/mmc$）与真实无机化学键长，构建了支持 360° 自由旋转缩放的学术级三维晶格交互对比系统：
+
+👉 **[🌐 点击直接在线交互体验（免下载，浏览器直接打开旋转查看）](https://zhr2271854800.github.io/g-cli/assets/3d_layers_interactive.html)**  
+📂 本地网页文件：[`assets/3d_layers_interactive.html`](./assets/3d_layers_interactive.html)
+
+![O3 vs P2 三维晶格交互解析](./assets/images/11_3d_layers_plotly.png)
+
+- **左侧 O3 型 ($\alpha\text{-NaFeO}_2$)**：高亮橙色八面体配位笼（上下两组氧三角形呈 $60^\circ$ 错位）；
+- **右侧 P2 型 ($\text{Na}_{0.67}\text{MnO}_2$)**：高亮紫色直立三棱柱配位笼（上下两组氧三角形严格垂直对齐）；
+- **底层标准 CIF 文件**：收录于 [`structures/`](./structures/) 目录，经 ASE / pymatgen 校验物理键长无误。
+
 ### 白皮书精要速览：
 1. **战略定位**：直面锂资源高达 65%~70% 的对外依赖困境，解构钠资源 100% 自主可控战略优势与 -20℃~-40℃ 宽温域极寒高放电特性；
 2. **三大路线决战**：以多维雷达图深度剖析层状氧化物（O3/P2）、聚阴离子（NFPP）与普鲁士蓝化合物的性能边界与工业化定位；
